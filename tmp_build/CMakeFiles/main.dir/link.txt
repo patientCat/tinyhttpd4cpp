@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/main.dir/Httpd.cc.o CMakeFiles/main.dir/Socket.cc.o CMakeFiles/main.dir/TcpConnection.cc.o CMakeFiles/main.dir/General.cc.o CMakeFiles/main.dir/main.cc.o  -o /home/jmx/project/tinyhttpd4cpp/bin/main -lpthread 
