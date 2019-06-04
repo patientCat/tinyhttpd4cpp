@@ -34,13 +34,8 @@ Httpd::loop()
     {
         client_sock = listenFd_.accept();
         printf("new connection is establinshed\n");
-        if (pthread_create(
-                    &newthread, 
-                    NULL, 
-                    accept_request,
-                    (void *)(reinterpret_cast<int*>(client_sock))
-                    )
-            )
+        if (pthread_create( &newthread, NULL, accept_request,
+                    (void *)(reinterpret_cast<int*>(client_sock))))
             perror("pthread_create");
     }
 }
@@ -59,7 +54,7 @@ Httpd::accept_request(void *arg)
     int client = (reinterpret_cast<long>(arg));
     TcpConnection conn(client);
     conn.process();
-    return NULL;
+    pthread_exit(NULL);
 }
 
 
@@ -74,6 +69,8 @@ Httpd::accept_request(void *arg)
 void
 Httpd::startup() // 传入端口号
 {
+    signal(SIGPIPE, SIG_IGN);
+    signal(SIGALRM, SIG_IGN);
     listenFd_.init();
     listenFd_.setReuseaddr(true);
     listenFd_.bind();
