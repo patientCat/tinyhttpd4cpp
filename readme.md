@@ -1,11 +1,27 @@
 # Tinyhttpd4cpp
 ## 说明
 本例子仅处于自我学习目的
-## 版本0.0.1
+## 使用
+```bash
+./build.sh
+./bin/httpd
+```
+然后使用浏览器访问127.0.0.1:4000
+## 版本ver1
 修改Tinyhttpd为c++代码
-<<<<<<< HEAD
 
-BUG修复
+### 1. 下个目标
+1. 学习Webbench的使用
+2. 加入线程池
+
+### 2. BUG修复
 * 在配合webbench的时候发现服务器总是会异常中断，最后发现是由于`SIGPIPE`导致。忽略了`SIGPIPE`和`SIGALERM`信号
 =======
 这里使用的是one tcp-connection per thread。接下来的目的是学习压测工具。
+
+## 版本ver2
+添加了线程池
+
+### 1. 下个目标
+1. 加入日志系统
+2. 添加BlockingQueue
