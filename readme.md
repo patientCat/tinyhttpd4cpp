@@ -55,9 +55,9 @@
 3. 利用function/bind实现回调机制
 
 详情请查看我的博客
-[singsing库01](https://blog.csdn.net/weixin_43468441/article/details/93783842)
-[singsing库02](https://blog.csdn.net/weixin_43468441/article/details/93788166)
-[singsing库03](https://blog.csdn.net/weixin_43468441/article/details/94406374)
-[singsing库04](https://blog.csdn.net/weixin_43468441/article/details/94407752)
+1. [singsing库01](https://blog.csdn.net/weixin_43468441/article/details/93783842)
+2. [singsing库02](https://blog.csdn.net/weixin_43468441/article/details/93788166)
+3. [singsing库03](https://blog.csdn.net/weixin_43468441/article/details/94406374)
+4. [singsing库04](https://blog.csdn.net/weixin_43468441/article/details/94407752)
 #### 目前存在的问题
 cmake中的路径为绝对路径
