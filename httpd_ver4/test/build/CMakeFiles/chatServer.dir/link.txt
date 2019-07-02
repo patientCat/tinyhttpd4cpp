@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/chatServer.dir/chatServer.cc.o  -o ../bin/chatServer  -L/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/../lib -lsingsing_net -lsingsing_base -lpthread -Wl,-rpath,/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/../lib 

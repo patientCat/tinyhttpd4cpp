@@ -1,0 +1,4 @@
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/build/CMakeFiles/edit_cache.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/build/CMakeFiles/rebuild_cache.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/build/CMakeFiles/chatServer.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/build/CMakeFiles/echoServer.dir
