@@ -59,5 +59,24 @@
 2. [singsing库02](https://blog.csdn.net/weixin_43468441/article/details/93788166)
 3. [singsing库03](https://blog.csdn.net/weixin_43468441/article/details/94406374)
 4. [singsing库04](https://blog.csdn.net/weixin_43468441/article/details/94407752)
-#### 目前存在的问题
-cmake中的路径为绝对路径
+
+#### 1. 下个目标
+到达目前的阶段我准备暂停一下，这里算是做了一个基本的小的网络库。可能一些方面还不完善，但这里主要还是用作自己学习muduo的目的。
+
+下一阶段准备利用muduo写完一个中型的完整的项目。然后去学习lighttpd，在自己的网络库中添加http的组件。最终目标是完成一个比较有完整度的http服务器，然后在上面运行自己的博客或者简历。
+
+#### 2. 目标完成
+1. 完成了一个简单的httpServer，简单实现了http解析中的几个协议。有时间看一一下前端知识，最终能够配合前端完成自己全栈工程师的梦想。
+2. 完成了一个简单的银行存储系统。[github](https://github.com/patientCat/ABCBank)
+3. 完成了异步日志的学习。[github](https://github.com/patientCat/logger4cpp)
+
+#### 3. 下个目标
+下个目标希望自己暂时定的方向是Go，Docker，Redis。目前对Go语言的兴趣比较大，Redis其次，Docker最末。
+下面的目标按照难易程度进行排序
+1. 做自己的年度总结，以及Github上部署自己的简历
+2. 最近一直在学习Go语言。下一年想投入更多的时间再Go上面
+3. 实现简单的Redis
+4. Docker的学习
+5. 了解下分布式系统的相关知识
+
+
