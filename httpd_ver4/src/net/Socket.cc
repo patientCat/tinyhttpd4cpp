@@ -3,7 +3,7 @@
 //@date    2019-06-02 19:31:31
 
 #include "Socket.hh"
-#include "../base/General.hh"
+#include "../base/Logging.hh"
 
 #include <unistd.h>
 #include <assert.h>
@@ -43,7 +43,7 @@ Socket::initOrDie()
 {
     fd_ = socket(AF_INET, SOCK_STREAM, 0);
     if(fd_ < 0)
-        General::error_die(">>> socket error:");
+        LOG_ERROR << ">>> socket error:";
     bzero(&sockaddr_, sizeof(addr_));
     sockaddr_.sin_family = AF_INET;
     sockaddr_.sin_port = htons(addr_.getPort());
@@ -61,7 +61,7 @@ Socket::bindOrDie()
     assert(fd_ != -1);
     int ret = ::bind(fd_, reinterpret_cast<sockaddr*>(&sockaddr_), sizeof(sockaddr_));
     if(ret < 0)
-        General::error_die(">>> bind error:");
+        LOG_ERROR << ">>> bind error:";
 }
 void 
 Socket::listenOrDie()
@@ -69,7 +69,7 @@ Socket::listenOrDie()
     assert(fd_ != -1);
     int ret = ::listen(fd_, 5);
     if(ret < 0)
-        General::error_die(">>> listen error:");
+        LOG_ERROR << ">>> listen error:";
 }
 int 
 Socket::acceptOrDie()
@@ -77,7 +77,7 @@ Socket::acceptOrDie()
     assert(fd_ != -1);
     int acceptFd = ::accept4(fd_, NULL, NULL, O_NONBLOCK);
     if(acceptFd < 0)
-        General::error_die(">>> accept error:");
+        LOG_ERROR << ">>> accept error:";
     return acceptFd;
 }
 Socket::~Socket()
@@ -103,7 +103,7 @@ Socket::setReuseaddr(bool on = false)
     int one = on;
     if ((setsockopt(fd_, SOL_SOCKET, SO_REUSEADDR, &one, sizeof(one))) < 0)  // 开启端口复用
     {  
-        General::error_die(">>> setsockopt reuse failed");
+        LOG_ERROR << ">>> setsockopt reuse failed";
     }
 }
 void 
@@ -113,7 +113,7 @@ Socket::setNonBlock()
     int new_option = old_option | O_NONBLOCK;
     if(fcntl(fd_, F_SETFL, new_option) < 0)
     {
-        General::error_die(">>> setsockopt nonblock failed");
+        LOG_ERROR << ">>> setsockopt nonblock failed";
     }
 }
 } // end singsing

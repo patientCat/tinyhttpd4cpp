@@ -136,6 +136,19 @@ singsing_base/fast:
 	$(MAKE) -f base/CMakeFiles/singsing_base.dir/build.make base/CMakeFiles/singsing_base.dir/build
 .PHONY : singsing_base/fast
 
+#=============================================================================
+# Target rules for targets named singsing_http
+
+# Build rule for target.
+singsing_http: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singsing_http
+.PHONY : singsing_http
+
+# fast build rule for target.
+singsing_http/fast:
+	$(MAKE) -f http/CMakeFiles/singsing_http.dir/build.make http/CMakeFiles/singsing_http.dir/build
+.PHONY : singsing_http/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +159,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... singsing_net"
 	@echo "... singsing_base"
+	@echo "... singsing_http"
 .PHONY : help
 
 

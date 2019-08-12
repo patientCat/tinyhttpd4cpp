@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/net/cmake_install.cmake")
   include("/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/cmake_install.cmake")
+  include("/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/http/cmake_install.cmake")
 
 endif()
 

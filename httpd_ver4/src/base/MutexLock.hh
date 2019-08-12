@@ -2,11 +2,11 @@
 
 #include <pthread.h>
 
-#include <boost/noncopyable.hpp>
+#include "Noncopyable.hh"
 
 namespace singsing{
 
-class MutexLock : boost::noncopyable
+class MutexLock : Noncopyable
 {
 public:
     MutexLock()

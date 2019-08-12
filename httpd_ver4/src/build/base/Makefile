@@ -179,33 +179,6 @@ CurrentThread.cc.s:
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f base/CMakeFiles/singsing_base.dir/build.make base/CMakeFiles/singsing_base.dir/CurrentThread.cc.s
 .PHONY : CurrentThread.cc.s
 
-General.o: General.cc.o
-
-.PHONY : General.o
-
-# target to build an object file
-General.cc.o:
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f base/CMakeFiles/singsing_base.dir/build.make base/CMakeFiles/singsing_base.dir/General.cc.o
-.PHONY : General.cc.o
-
-General.i: General.cc.i
-
-.PHONY : General.i
-
-# target to preprocess a source file
-General.cc.i:
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f base/CMakeFiles/singsing_base.dir/build.make base/CMakeFiles/singsing_base.dir/General.cc.i
-.PHONY : General.cc.i
-
-General.s: General.cc.s
-
-.PHONY : General.s
-
-# target to generate assembly for a file
-General.cc.s:
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f base/CMakeFiles/singsing_base.dir/build.make base/CMakeFiles/singsing_base.dir/General.cc.s
-.PHONY : General.cc.s
-
 LogStream.o: LogStream.cc.o
 
 .PHONY : LogStream.o
@@ -302,9 +275,6 @@ help:
 	@echo "... CurrentThread.o"
 	@echo "... CurrentThread.i"
 	@echo "... CurrentThread.s"
-	@echo "... General.o"
-	@echo "... General.i"
-	@echo "... General.s"
 	@echo "... LogStream.o"
 	@echo "... LogStream.i"
 	@echo "... LogStream.s"

@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/ftpServer.dir/ftpServer.cc.o  -o ../bin/ftpServer  -L/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/../lib -lsingsing_net -lsingsing_base -lpthread -Wl,-rpath,/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/../lib 

@@ -15,6 +15,7 @@ TcpConnection::TcpConnection(Reactor* reactor, int connfd)
 , inputBuffer_()
 , outputBuffer_()
 , state_(kConnected)
+, obj_(nullptr)
 {
 
 }
@@ -91,6 +92,11 @@ void
 TcpConnection::send(std::string str)
 {
     send(str.data(), str.size());
+}
+void 
+TcpConnection::send(Buffer *buf)
+{
+    send(buf->readIndexPtr(), buf->readableSize());
 }
 
 /*

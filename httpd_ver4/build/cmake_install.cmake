@@ -1,4 +1,4 @@
-# Install script for directory: /home/jmx/project/tinyhttpd4cpp/httpd_ver4/test
+# Install script for directory: /home/jmx/project/tinyhttpd4cpp/httpd_ver4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,6 +30,13 @@ endif()
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/jmx/project/tinyhttpd4cpp/httpd_ver4/build/src/cmake_install.cmake")
+  include("/home/jmx/project/tinyhttpd4cpp/httpd_ver4/build/test/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

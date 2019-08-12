@@ -31,6 +31,9 @@ TcpServer::newConnection(int connfd)
     auto subReactor = threadNum_ ? threadPool_.getNextLoop() : &base_;
     // 需要创建新的连接，设置好对应的回调函数，然后将其注册到subReactor上面去
     TcpConnectionPtr connPtr(new TcpConnection(subReactor, connfd));
+    static int connNum = 0;
+    LOG_INFO << "connNum " << ++connNum;
+
 
     // 错误1：不能在这里回调连接到来函数，此时connPtr还没有注册到对应的subReactor上
     // connectionCallback_(connPtr); 

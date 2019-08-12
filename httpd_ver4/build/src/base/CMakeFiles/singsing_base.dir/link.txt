@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libsingsing_base.a  CMakeFiles/singsing_base.dir/CountDownLatch.cc.o CMakeFiles/singsing_base.dir/CurrentThread.cc.o CMakeFiles/singsing_base.dir/Logging.cc.o CMakeFiles/singsing_base.dir/LogStream.cc.o CMakeFiles/singsing_base.dir/Timestamp.cc.o
+/usr/bin/ranlib ../../../lib/libsingsing_base.a

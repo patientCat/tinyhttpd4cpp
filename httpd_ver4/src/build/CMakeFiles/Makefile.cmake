@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
+  "../http/CMakeLists.txt"
   "../net/CMakeLists.txt"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCXXInformation.cmake"
@@ -41,10 +42,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "net/CMakeFiles/CMakeDirectoryInformation.cmake"
   "base/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "http/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "net/CMakeFiles/singsing_net.dir/DependInfo.cmake"
   "base/CMakeFiles/singsing_base.dir/DependInfo.cmake"
+  "http/CMakeFiles/singsing_http.dir/DependInfo.cmake"
   )

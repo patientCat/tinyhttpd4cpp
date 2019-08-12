@@ -1,9 +1,10 @@
 #pragma once
 
 #include "MutexLock.hh"
+#include "Noncopyable.hh"
 namespace singsing{
 
-class MutexLockGuard : boost::noncopyable
+class MutexLockGuard : Noncopyable
 {
 public:
     explicit MutexLockGuard(MutexLock &mutex)

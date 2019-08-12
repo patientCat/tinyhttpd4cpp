@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/CountDownLatch.cc" "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/CMakeFiles/singsing_base.dir/CountDownLatch.cc.o"
   "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/CurrentThread.cc" "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o"
-  "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/General.cc" "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/CMakeFiles/singsing_base.dir/General.cc.o"
   "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/LogStream.cc" "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/CMakeFiles/singsing_base.dir/LogStream.cc.o"
   "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Logging.cc" "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/CMakeFiles/singsing_base.dir/Logging.cc.o"
   "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Timestamp.cc" "/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base/CMakeFiles/singsing_base.dir/Timestamp.cc.o"

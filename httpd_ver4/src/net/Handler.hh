@@ -4,15 +4,15 @@
 #pragma once
 
 // 想了想生命周期的管理，主要由于俩点，一是对端断开连接后，一是因为超时被Reactor踢掉
+#include "Callback.hh"
+#include "../base/Noncopyable.hh"
 
 #include <iostream>
-#include <boost/noncopyable.hpp>
-#include "Callback.hh"
 
 //  事件类，目的是用来注册到Reactor中的
 
 namespace singsing{
-class Handler : boost::noncopyable
+class Handler : Noncopyable
 {
     using ReadCallback = std::function<void(Timestamp)>;
     using Callback = std::function<void()>;

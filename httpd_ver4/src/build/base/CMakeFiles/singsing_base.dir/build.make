@@ -105,33 +105,9 @@ base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o.provides: base/CMakeFiles/s
 base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o.provides.build: base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o
 
 
-base/CMakeFiles/singsing_base.dir/General.cc.o: base/CMakeFiles/singsing_base.dir/flags.make
-base/CMakeFiles/singsing_base.dir/General.cc.o: ../base/General.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object base/CMakeFiles/singsing_base.dir/General.cc.o"
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/singsing_base.dir/General.cc.o -c /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/General.cc
-
-base/CMakeFiles/singsing_base.dir/General.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/singsing_base.dir/General.cc.i"
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/General.cc > CMakeFiles/singsing_base.dir/General.cc.i
-
-base/CMakeFiles/singsing_base.dir/General.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/singsing_base.dir/General.cc.s"
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/General.cc -o CMakeFiles/singsing_base.dir/General.cc.s
-
-base/CMakeFiles/singsing_base.dir/General.cc.o.requires:
-
-.PHONY : base/CMakeFiles/singsing_base.dir/General.cc.o.requires
-
-base/CMakeFiles/singsing_base.dir/General.cc.o.provides: base/CMakeFiles/singsing_base.dir/General.cc.o.requires
-	$(MAKE) -f base/CMakeFiles/singsing_base.dir/build.make base/CMakeFiles/singsing_base.dir/General.cc.o.provides.build
-.PHONY : base/CMakeFiles/singsing_base.dir/General.cc.o.provides
-
-base/CMakeFiles/singsing_base.dir/General.cc.o.provides.build: base/CMakeFiles/singsing_base.dir/General.cc.o
-
-
 base/CMakeFiles/singsing_base.dir/Logging.cc.o: base/CMakeFiles/singsing_base.dir/flags.make
 base/CMakeFiles/singsing_base.dir/Logging.cc.o: ../base/Logging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object base/CMakeFiles/singsing_base.dir/Logging.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object base/CMakeFiles/singsing_base.dir/Logging.cc.o"
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/singsing_base.dir/Logging.cc.o -c /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Logging.cc
 
 base/CMakeFiles/singsing_base.dir/Logging.cc.i: cmake_force
@@ -155,7 +131,7 @@ base/CMakeFiles/singsing_base.dir/Logging.cc.o.provides.build: base/CMakeFiles/s
 
 base/CMakeFiles/singsing_base.dir/LogStream.cc.o: base/CMakeFiles/singsing_base.dir/flags.make
 base/CMakeFiles/singsing_base.dir/LogStream.cc.o: ../base/LogStream.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object base/CMakeFiles/singsing_base.dir/LogStream.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object base/CMakeFiles/singsing_base.dir/LogStream.cc.o"
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/singsing_base.dir/LogStream.cc.o -c /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/LogStream.cc
 
 base/CMakeFiles/singsing_base.dir/LogStream.cc.i: cmake_force
@@ -179,7 +155,7 @@ base/CMakeFiles/singsing_base.dir/LogStream.cc.o.provides.build: base/CMakeFiles
 
 base/CMakeFiles/singsing_base.dir/Timestamp.cc.o: base/CMakeFiles/singsing_base.dir/flags.make
 base/CMakeFiles/singsing_base.dir/Timestamp.cc.o: ../base/Timestamp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object base/CMakeFiles/singsing_base.dir/Timestamp.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object base/CMakeFiles/singsing_base.dir/Timestamp.cc.o"
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/singsing_base.dir/Timestamp.cc.o -c /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Timestamp.cc
 
 base/CMakeFiles/singsing_base.dir/Timestamp.cc.i: cmake_force
@@ -205,7 +181,6 @@ base/CMakeFiles/singsing_base.dir/Timestamp.cc.o.provides.build: base/CMakeFiles
 singsing_base_OBJECTS = \
 "CMakeFiles/singsing_base.dir/CountDownLatch.cc.o" \
 "CMakeFiles/singsing_base.dir/CurrentThread.cc.o" \
-"CMakeFiles/singsing_base.dir/General.cc.o" \
 "CMakeFiles/singsing_base.dir/Logging.cc.o" \
 "CMakeFiles/singsing_base.dir/LogStream.cc.o" \
 "CMakeFiles/singsing_base.dir/Timestamp.cc.o"
@@ -213,26 +188,24 @@ singsing_base_OBJECTS = \
 # External object files for target singsing_base
 singsing_base_EXTERNAL_OBJECTS =
 
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/CountDownLatch.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/General.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/Logging.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/LogStream.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/Timestamp.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/build.make
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library /home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a"
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/CountDownLatch.cc.o
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/Logging.cc.o
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/LogStream.cc.o
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/Timestamp.cc.o
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/build.make
+../lib/libsingsing_base.a: base/CMakeFiles/singsing_base.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/libsingsing_base.a"
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && $(CMAKE_COMMAND) -P CMakeFiles/singsing_base.dir/cmake_clean_target.cmake
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/singsing_base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-base/CMakeFiles/singsing_base.dir/build: /home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_base.a
+base/CMakeFiles/singsing_base.dir/build: ../lib/libsingsing_base.a
 
 .PHONY : base/CMakeFiles/singsing_base.dir/build
 
 base/CMakeFiles/singsing_base.dir/requires: base/CMakeFiles/singsing_base.dir/CountDownLatch.cc.o.requires
 base/CMakeFiles/singsing_base.dir/requires: base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o.requires
-base/CMakeFiles/singsing_base.dir/requires: base/CMakeFiles/singsing_base.dir/General.cc.o.requires
 base/CMakeFiles/singsing_base.dir/requires: base/CMakeFiles/singsing_base.dir/Logging.cc.o.requires
 base/CMakeFiles/singsing_base.dir/requires: base/CMakeFiles/singsing_base.dir/LogStream.cc.o.requires
 base/CMakeFiles/singsing_base.dir/requires: base/CMakeFiles/singsing_base.dir/Timestamp.cc.o.requires

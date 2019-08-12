@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/echoServer.dir/echoServer.cc.o  -o ../bin/echoServer  -L/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/simple/../lib ../../../lib/libsingsing_net.a ../../../lib/libsingsing_base.a -lpthread -Wl,-rpath,/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/simple/../lib 

@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jmx/project/tinyhttpd4cpp/httpd_ver4/test
+CMAKE_SOURCE_DIR = /home/jmx/project/tinyhttpd4cpp/httpd_ver4
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jmx/project/tinyhttpd4cpp/httpd_ver4/build
@@ -111,17 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named chatServer
+# Target rules for targets named singsing_net
 
 # Build rule for target.
-chatServer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chatServer
-.PHONY : chatServer
+singsing_net: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singsing_net
+.PHONY : singsing_net
 
 # fast build rule for target.
-chatServer/fast:
-	$(MAKE) -f CMakeFiles/chatServer.dir/build.make CMakeFiles/chatServer.dir/build
-.PHONY : chatServer/fast
+singsing_net/fast:
+	$(MAKE) -f src/net/CMakeFiles/singsing_net.dir/build.make src/net/CMakeFiles/singsing_net.dir/build
+.PHONY : singsing_net/fast
+
+#=============================================================================
+# Target rules for targets named singsing_base
+
+# Build rule for target.
+singsing_base: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singsing_base
+.PHONY : singsing_base
+
+# fast build rule for target.
+singsing_base/fast:
+	$(MAKE) -f src/base/CMakeFiles/singsing_base.dir/build.make src/base/CMakeFiles/singsing_base.dir/build
+.PHONY : singsing_base/fast
+
+#=============================================================================
+# Target rules for targets named singsing_http
+
+# Build rule for target.
+singsing_http: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 singsing_http
+.PHONY : singsing_http
+
+# fast build rule for target.
+singsing_http/fast:
+	$(MAKE) -f src/http/CMakeFiles/singsing_http.dir/build.make src/http/CMakeFiles/singsing_http.dir/build
+.PHONY : singsing_http/fast
 
 #=============================================================================
 # Target rules for targets named echoServer
@@ -133,62 +159,47 @@ echoServer: cmake_check_build_system
 
 # fast build rule for target.
 echoServer/fast:
-	$(MAKE) -f CMakeFiles/echoServer.dir/build.make CMakeFiles/echoServer.dir/build
+	$(MAKE) -f test/simple/CMakeFiles/echoServer.dir/build.make test/simple/CMakeFiles/echoServer.dir/build
 .PHONY : echoServer/fast
 
-chatServer.o: chatServer.cc.o
+#=============================================================================
+# Target rules for targets named chatServer
 
-.PHONY : chatServer.o
+# Build rule for target.
+chatServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chatServer
+.PHONY : chatServer
 
-# target to build an object file
-chatServer.cc.o:
-	$(MAKE) -f CMakeFiles/chatServer.dir/build.make CMakeFiles/chatServer.dir/chatServer.cc.o
-.PHONY : chatServer.cc.o
+# fast build rule for target.
+chatServer/fast:
+	$(MAKE) -f test/simple/CMakeFiles/chatServer.dir/build.make test/simple/CMakeFiles/chatServer.dir/build
+.PHONY : chatServer/fast
 
-chatServer.i: chatServer.cc.i
+#=============================================================================
+# Target rules for targets named ftpServer
 
-.PHONY : chatServer.i
+# Build rule for target.
+ftpServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ftpServer
+.PHONY : ftpServer
 
-# target to preprocess a source file
-chatServer.cc.i:
-	$(MAKE) -f CMakeFiles/chatServer.dir/build.make CMakeFiles/chatServer.dir/chatServer.cc.i
-.PHONY : chatServer.cc.i
+# fast build rule for target.
+ftpServer/fast:
+	$(MAKE) -f test/simple/CMakeFiles/ftpServer.dir/build.make test/simple/CMakeFiles/ftpServer.dir/build
+.PHONY : ftpServer/fast
 
-chatServer.s: chatServer.cc.s
+#=============================================================================
+# Target rules for targets named httpd
 
-.PHONY : chatServer.s
+# Build rule for target.
+httpd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 httpd
+.PHONY : httpd
 
-# target to generate assembly for a file
-chatServer.cc.s:
-	$(MAKE) -f CMakeFiles/chatServer.dir/build.make CMakeFiles/chatServer.dir/chatServer.cc.s
-.PHONY : chatServer.cc.s
-
-echoServer.o: echoServer.cc.o
-
-.PHONY : echoServer.o
-
-# target to build an object file
-echoServer.cc.o:
-	$(MAKE) -f CMakeFiles/echoServer.dir/build.make CMakeFiles/echoServer.dir/echoServer.cc.o
-.PHONY : echoServer.cc.o
-
-echoServer.i: echoServer.cc.i
-
-.PHONY : echoServer.i
-
-# target to preprocess a source file
-echoServer.cc.i:
-	$(MAKE) -f CMakeFiles/echoServer.dir/build.make CMakeFiles/echoServer.dir/echoServer.cc.i
-.PHONY : echoServer.cc.i
-
-echoServer.s: echoServer.cc.s
-
-.PHONY : echoServer.s
-
-# target to generate assembly for a file
-echoServer.cc.s:
-	$(MAKE) -f CMakeFiles/echoServer.dir/build.make CMakeFiles/echoServer.dir/echoServer.cc.s
-.PHONY : echoServer.cc.s
+# fast build rule for target.
+httpd/fast:
+	$(MAKE) -f test/http/CMakeFiles/httpd.dir/build.make test/http/CMakeFiles/httpd.dir/build
+.PHONY : httpd/fast
 
 # Help Target
 help:
@@ -198,14 +209,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... chatServer"
+	@echo "... singsing_net"
+	@echo "... singsing_base"
+	@echo "... singsing_http"
 	@echo "... echoServer"
-	@echo "... chatServer.o"
-	@echo "... chatServer.i"
-	@echo "... chatServer.s"
-	@echo "... echoServer.o"
-	@echo "... echoServer.i"
-	@echo "... echoServer.s"
+	@echo "... chatServer"
+	@echo "... ftpServer"
+	@echo "... httpd"
 .PHONY : help
 
 

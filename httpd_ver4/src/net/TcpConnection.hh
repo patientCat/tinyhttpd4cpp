@@ -43,7 +43,17 @@ public:
 
     void send(const void*data, size_t len);
     void send(std::string);
+    void send(Buffer* buff);
     void shutdown();
+
+    void setObj(void *obj) 
+    {
+      obj_ = obj;
+    }
+    void *getObj()
+    {
+      return obj_;
+    }
 private:
     void handleRead(Timestamp timestamp);
     void handleWrite();
@@ -59,5 +69,6 @@ private:
     WriteCompleteCallback writeCompleteCallback_;
     CloseCallback closeCallback_;
     std::atomic<eState> state_;
+    void *obj_;
 };
 }

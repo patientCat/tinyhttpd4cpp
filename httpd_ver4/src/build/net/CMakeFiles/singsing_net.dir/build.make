@@ -369,30 +369,6 @@ net/CMakeFiles/singsing_net.dir/Socket.cc.o.provides: net/CMakeFiles/singsing_ne
 net/CMakeFiles/singsing_net.dir/Socket.cc.o.provides.build: net/CMakeFiles/singsing_net.dir/Socket.cc.o
 
 
-net/CMakeFiles/singsing_net.dir/Thread.cc.o: net/CMakeFiles/singsing_net.dir/flags.make
-net/CMakeFiles/singsing_net.dir/Thread.cc.o: ../net/Thread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object net/CMakeFiles/singsing_net.dir/Thread.cc.o"
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/net && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/singsing_net.dir/Thread.cc.o -c /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/net/Thread.cc
-
-net/CMakeFiles/singsing_net.dir/Thread.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/singsing_net.dir/Thread.cc.i"
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/net/Thread.cc > CMakeFiles/singsing_net.dir/Thread.cc.i
-
-net/CMakeFiles/singsing_net.dir/Thread.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/singsing_net.dir/Thread.cc.s"
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/net && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/net/Thread.cc -o CMakeFiles/singsing_net.dir/Thread.cc.s
-
-net/CMakeFiles/singsing_net.dir/Thread.cc.o.requires:
-
-.PHONY : net/CMakeFiles/singsing_net.dir/Thread.cc.o.requires
-
-net/CMakeFiles/singsing_net.dir/Thread.cc.o.provides: net/CMakeFiles/singsing_net.dir/Thread.cc.o.requires
-	$(MAKE) -f net/CMakeFiles/singsing_net.dir/build.make net/CMakeFiles/singsing_net.dir/Thread.cc.o.provides.build
-.PHONY : net/CMakeFiles/singsing_net.dir/Thread.cc.o.provides
-
-net/CMakeFiles/singsing_net.dir/Thread.cc.o.provides.build: net/CMakeFiles/singsing_net.dir/Thread.cc.o
-
-
 # Object files for target singsing_net
 singsing_net_OBJECTS = \
 "CMakeFiles/singsing_net.dir/Acceptor.cc.o" \
@@ -407,34 +383,32 @@ singsing_net_OBJECTS = \
 "CMakeFiles/singsing_net.dir/Reactor.cc.o" \
 "CMakeFiles/singsing_net.dir/TcpServer.cc.o" \
 "CMakeFiles/singsing_net.dir/Handler.cc.o" \
-"CMakeFiles/singsing_net.dir/Socket.cc.o" \
-"CMakeFiles/singsing_net.dir/Thread.cc.o"
+"CMakeFiles/singsing_net.dir/Socket.cc.o"
 
 # External object files for target singsing_net
 singsing_net_EXTERNAL_OBJECTS =
 
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Acceptor.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/TcpConnection.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/InetAddress.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/TimerQueue.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/EpollPoller.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/ReactorThreadPool.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/ReactorThread.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/ThreadPool.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Buffer.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Reactor.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/TcpServer.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Handler.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Socket.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Thread.cc.o
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/build.make
-/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library /home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a"
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Acceptor.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/TcpConnection.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/InetAddress.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/TimerQueue.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/EpollPoller.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/ReactorThreadPool.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/ReactorThread.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/ThreadPool.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Buffer.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Reactor.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/TcpServer.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Handler.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/Socket.cc.o
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/build.make
+../lib/libsingsing_net.a: net/CMakeFiles/singsing_net.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library ../../lib/libsingsing_net.a"
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/net && $(CMAKE_COMMAND) -P CMakeFiles/singsing_net.dir/cmake_clean_target.cmake
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build/net && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/singsing_net.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-net/CMakeFiles/singsing_net.dir/build: /home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/libsingsing_net.a
+net/CMakeFiles/singsing_net.dir/build: ../lib/libsingsing_net.a
 
 .PHONY : net/CMakeFiles/singsing_net.dir/build
 
@@ -451,7 +425,6 @@ net/CMakeFiles/singsing_net.dir/requires: net/CMakeFiles/singsing_net.dir/Reacto
 net/CMakeFiles/singsing_net.dir/requires: net/CMakeFiles/singsing_net.dir/TcpServer.cc.o.requires
 net/CMakeFiles/singsing_net.dir/requires: net/CMakeFiles/singsing_net.dir/Handler.cc.o.requires
 net/CMakeFiles/singsing_net.dir/requires: net/CMakeFiles/singsing_net.dir/Socket.cc.o.requires
-net/CMakeFiles/singsing_net.dir/requires: net/CMakeFiles/singsing_net.dir/Thread.cc.o.requires
 
 .PHONY : net/CMakeFiles/singsing_net.dir/requires
 

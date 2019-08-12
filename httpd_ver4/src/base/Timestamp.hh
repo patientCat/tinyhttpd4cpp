@@ -1,22 +1,18 @@
 /*
- *
  * 一个时间戳类
  */
 #pragma once
-#include "copyable.hh"
+#include "Copyable.hh"
 
 #include <boost/operators.hpp>
 
 namespace singsing
 {
 
-///
-/// Time stamp in UTC, in microseconds resolution.
-///
-/// This class is immutable.
-/// It's recommended to pass it by value, since it's passed in register on x64.
-///
-class Timestamp : singsing::copyable,
+// 主要存储的就是距离Epoch时间的毫秒数
+// 主要用来将毫秒时间转换为ISO日期时间
+
+class Timestamp : singsing::Copyable, // 仅仅是一个空tag
                   public boost::equality_comparable<Timestamp>,
                   public boost::less_than_comparable<Timestamp>
 {

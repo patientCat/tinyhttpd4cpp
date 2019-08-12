@@ -422,33 +422,6 @@ TcpServer.cc.s:
 	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f net/CMakeFiles/singsing_net.dir/build.make net/CMakeFiles/singsing_net.dir/TcpServer.cc.s
 .PHONY : TcpServer.cc.s
 
-Thread.o: Thread.cc.o
-
-.PHONY : Thread.o
-
-# target to build an object file
-Thread.cc.o:
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f net/CMakeFiles/singsing_net.dir/build.make net/CMakeFiles/singsing_net.dir/Thread.cc.o
-.PHONY : Thread.cc.o
-
-Thread.i: Thread.cc.i
-
-.PHONY : Thread.i
-
-# target to preprocess a source file
-Thread.cc.i:
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f net/CMakeFiles/singsing_net.dir/build.make net/CMakeFiles/singsing_net.dir/Thread.cc.i
-.PHONY : Thread.cc.i
-
-Thread.s: Thread.cc.s
-
-.PHONY : Thread.s
-
-# target to generate assembly for a file
-Thread.cc.s:
-	cd /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/build && $(MAKE) -f net/CMakeFiles/singsing_net.dir/build.make net/CMakeFiles/singsing_net.dir/Thread.cc.s
-.PHONY : Thread.cc.s
-
 ThreadPool.o: ThreadPool.cc.o
 
 .PHONY : ThreadPool.o
@@ -545,9 +518,6 @@ help:
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"
-	@echo "... Thread.o"
-	@echo "... Thread.i"
-	@echo "... Thread.s"
 	@echo "... ThreadPool.o"
 	@echo "... ThreadPool.i"
 	@echo "... ThreadPool.s"

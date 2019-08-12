@@ -7,25 +7,25 @@ base/CMakeFiles/singsing_base.dir/CountDownLatch.cc.o
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/CountDownLatch.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/MutexLock.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/MutexLockGuard.hh
+ /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Noncopyable.hh
 base/CMakeFiles/singsing_base.dir/CurrentThread.cc.o
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/CurrentThread.cc
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/CurrentThread.hh
-base/CMakeFiles/singsing_base.dir/General.cc.o
- /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/General.cc
- /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/General.hh
 base/CMakeFiles/singsing_base.dir/LogStream.cc.o
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/FixedBuffer.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/LogStream.cc
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/LogStream.hh
+ /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Noncopyable.hh
 base/CMakeFiles/singsing_base.dir/Logging.cc.o
+ /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Copyable.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/CurrentThread.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/FixedBuffer.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/LogStream.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Logging.cc
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Logging.hh
+ /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Noncopyable.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Timestamp.hh
- /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/copyable.hh
 base/CMakeFiles/singsing_base.dir/Timestamp.cc.o
+ /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Copyable.hh
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Timestamp.cc
  /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/Timestamp.hh
- /home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/copyable.hh

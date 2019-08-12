@@ -113,6 +113,7 @@ Reactor::runTask(Task&& task)
         addTask(std::move(task));
 }
 
+// 向BlokingQueue中添加任务
 void
 Reactor::addTask(Task&& task)
 {
@@ -131,7 +132,7 @@ Reactor::handleTask()
     // 这里不需要加锁，即使在handleTask任务的时候，他们添加任务，这里面只会固定执行size个任务，后续添加的会在下一轮执行
     // 因为只有Reactor自己可以去调用get
     isHandleTask = true;
-    Task task;
+    Task task = 0;
     int size = taskQueue_.size();
     for(int i = 0; i < size; ++i)
     {
@@ -140,8 +141,11 @@ Reactor::handleTask()
         task = taskQueue_.get();
         CurrentThread::tid();
         std::string id(CurrentThread::tidString());
-        LOG_INFO << id << " is running task()";
-        task(); 
+        if(task)
+        {
+          LOG_INFO << id << " is running task()";
+          task(); 
+        }
     }
     isHandleTask = false;
 }

@@ -4,8 +4,8 @@
 
 #pragma once
 
-#include <string>
 #include "FixedBuffer.hh"
+#include <string>
 
 namespace singsing
 {

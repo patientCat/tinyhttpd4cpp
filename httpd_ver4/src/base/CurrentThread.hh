@@ -1,8 +1,3 @@
-// Use of this source code is governed by a BSD-style license
-// that can be found in the License file.
-//
-// Author: Shuo Chen (chenshuo at chenshuo dot com)
-
 /*
  * 线程的pthread_self我们叫做pid，是在一个进程中唯一的，现在我们希望获得的tid，即整个操作系统唯一的
  */
@@ -15,6 +10,7 @@ namespace singsing
 namespace CurrentThread
 {
   // internal
+  // 主要就是使用线程特殊变量来做一个tid的缓存
   extern __thread int t_cachedTid;
   extern __thread char t_tidString[32];
   extern __thread int t_tidStringLength;
@@ -51,5 +47,6 @@ namespace CurrentThread
 
   std::string stackTrace(bool demangle);
 }  // namespace CurrentThread
+
 }  //  singsing
 

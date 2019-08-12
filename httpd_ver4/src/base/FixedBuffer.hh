@@ -4,8 +4,10 @@
  */
 #pragma once
 
-#include <boost/noncopyable.hpp>
-#include <cstring>
+#include "Noncopyable.hh"
+
+#include <string.h>
+
 #include <string>
 
 namespace singsing{
@@ -13,7 +15,7 @@ namespace singsing{
 namespace detail{
 
 template<int SIZE>
-class FixedBuffer : boost::noncopyable
+class FixedBuffer : Noncopyable
 {
 public:
     FixedBuffer() : cur_(data_) {   setCookie(cookieStart); }

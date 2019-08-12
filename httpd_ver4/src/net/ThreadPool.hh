@@ -4,13 +4,14 @@
 #include "../base/Condition.hh"
 #include "../base/CountDownLatch.hh"
 #include "../base/BlockingQueue.hh"
+#include "../base/Noncopyable.hh"
 
 #include <functional>
 #include <memory>
 #include <atomic>
 
 namespace singsing{
-class ThreadPool : boost::noncopyable
+class ThreadPool : Noncopyable
 {
     typedef std::function<void()> Task;
 public:

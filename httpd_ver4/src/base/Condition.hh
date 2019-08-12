@@ -1,9 +1,10 @@
 #pragma once
 
 #include "MutexLock.hh"
+#include "Noncopyable.hh"
 
 namespace singsing{
-class Condition : boost::noncopyable
+class Condition : Noncopyable
 {
 public:
     explicit Condition(MutexLock &mutex)

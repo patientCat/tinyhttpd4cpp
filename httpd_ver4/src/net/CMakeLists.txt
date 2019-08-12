@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(my_muduo_net)
 
-set(LIBRARY_OUTPUT_PATH /home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib)
+set(LIB_PATH ${CMAKE_SOURCE_DIR}/lib/)
+set(LIBRARY_OUTPUT_PATH ${LIB_PATH})
 add_compile_options("-std=c++11")
 
 set(srcs 
@@ -18,10 +19,9 @@ set(srcs
     TcpServer.cc
     Handler.cc
     Socket.cc
-    Thread.cc
     )
 
-link_directories(/home/jmx/project/tinyhttpd4cpp/httpd_ver4/lib/)
+link_directories(${LIB_PATH})
 add_library(singsing_net ${srcs})
 target_link_libraries(singsing_net singsing_base)
 

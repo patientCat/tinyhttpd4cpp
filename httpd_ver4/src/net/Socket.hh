@@ -1,10 +1,10 @@
 #pragma once
+#include "../base/Noncopyable.hh"
 #include "InetAddress.hh"
 
 #include <arpa/inet.h>
 
 #include <string>
-#include <boost/noncopyable.hpp>
 namespace singsing{
 
 namespace SocketUtil{
@@ -13,7 +13,7 @@ namespace SocketUtil{
     void shutdownWrite(int fd);
 }
 class Socket
-: boost::noncopyable
+: Noncopyable
 {
 public:
     Socket(const InetAddress& addr);
