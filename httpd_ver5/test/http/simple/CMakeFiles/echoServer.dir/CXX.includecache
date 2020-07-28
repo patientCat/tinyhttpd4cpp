@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/simple/echoServer.cc
+iostream
+-
+../src/net/TcpServer.hh
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/src/net/TcpServer.hh
+../src/net/InetAddress.hh
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/src/net/InetAddress.hh
+../src/net/TcpConnection.hh
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/test/src/net/TcpConnection.hh
+

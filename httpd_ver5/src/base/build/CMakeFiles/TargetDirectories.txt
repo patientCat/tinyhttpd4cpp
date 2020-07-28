@@ -1,0 +1,3 @@
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/build/CMakeFiles/edit_cache.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/build/CMakeFiles/rebuild_cache.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver4/src/base/build/CMakeFiles/singsing_base.dir

@@ -1,0 +1,3 @@
+/home/jmx/project/tinyhttpd4cpp/httpd_ver5/test/http/build/CMakeFiles/edit_cache.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver5/test/http/build/CMakeFiles/httpd.dir
+/home/jmx/project/tinyhttpd4cpp/httpd_ver5/test/http/build/CMakeFiles/rebuild_cache.dir

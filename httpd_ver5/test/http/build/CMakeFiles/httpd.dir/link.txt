@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/httpd.dir/httpServer.cc.o  -o ../bin/httpd  -L/home/jmx/project/tinyhttpd4cpp/httpd_ver5/test/http/../../lib -lsingsing_http -lsingsing_net -lsingsing_base -lpthread -Wl,-rpath,/home/jmx/project/tinyhttpd4cpp/httpd_ver5/test/http/../../lib 

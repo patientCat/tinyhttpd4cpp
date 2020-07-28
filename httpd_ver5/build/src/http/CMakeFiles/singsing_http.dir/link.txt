@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libsingsing_http.a  CMakeFiles/singsing_http.dir/HttpContext.cc.o CMakeFiles/singsing_http.dir/HttpResponse.cc.o CMakeFiles/singsing_http.dir/HttpServer.cc.o
+/usr/bin/ranlib ../../../lib/libsingsing_http.a
